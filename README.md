@@ -1,10 +1,3 @@
-- 👋 Hi, I’m @syakur136
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-syakur136/syakur136 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hi, I’m Muchammad Fachri Syakur 
+- view more to the website
+https://muchammadfachrisyakur.github.io/Fachri/
