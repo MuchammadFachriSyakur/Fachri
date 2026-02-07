@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fachri.dev/sitemap.xml
