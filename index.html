@@ -1,220 +1,317 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO Meta Tags -->
-    <title>Fachri | Partner Digital & Jasa Pembuatan Website Travel & UMKM</title>
-    <meta name="title" content="Fachri | Partner Digital & Jasa Pembuatan Website Travel & UMKM">
-    <meta name="description"
-        content="Solusi website profesional untuk bisnis travel, jasa, dan UMKM. Transformasi kehadiran digital Anda menjadi aset yang menghasilkan.">
-    <meta name="keywords"
-        content="Jasa Pembuatan Website, Web Developer Travel, Website UMKM, Partner Digital, Fachri Web Dev, Travel Pekalongan, Muchammad Fachri Syakur, Fachri, Fachri Syakur">
-    <meta name="author" content="Fachri">
+  <!-- SEO Meta Tags -->
+  <title>
+    Fachri | Partner Digital & Jasa Pembuatan Website Travel & UMKM
+  </title>
+  <meta name="title" content="Fachri | Partner Digital & Jasa Pembuatan Website Travel & UMKM" />
+  <meta name="description"
+    content="Solusi website profesional untuk bisnis travel, jasa, dan UMKM. Transformasi kehadiran digital Anda menjadi aset yang menghasilkan." />
+  <meta name="keywords"
+    content="Jasa Pembuatan Website, Web Developer Travel, Website UMKM, Partner Digital, Fachri Web Dev, Travel Pekalongan, Muchammad Fachri Syakur, Fachri, Fachri Syakur" />
+  <meta name="author" content="Fachri" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fachri.dev/">
-    <meta property="og:title" content="Fachri | Partner Digital & Jasa Pembuatan Website">
-    <meta property="og:description"
-        content="Tingkatkan kepercayaan klien dengan website profesional. Khusus Travel & UMKM.">
-    <meta property="og:image"
-        content="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fachri.dev/" />
+  <meta property="og:title" content="Fachri | Partner Digital & Jasa Pembuatan Website" />
+  <meta property="og:description"
+    content="Tingkatkan kepercayaan klien dengan website profesional. Khusus Travel & UMKM." />
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200" />
 
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/main.css">
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="canonical" href="https://fachri.dev/" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Fachri.Digital",
+        "url": "https://fachri.dev/",
+        "image": "https://fachri.dev/Logo.jpg",
+        "description": "Solusi website profesional untuk bisnis travel, jasa, dan UMKM. Transformasi kehadiran digital Anda menjadi aset yang menghasilkan.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pekalongan",
+          "addressCountry": "ID"
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Muchammad Fachri Syakur"
+        }
+      }
+    </script>
 </head>
 
 <body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        FACHRI<span class="gradient-text">.DIGITAL</span>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#solusi">Solusi</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <div class="nav-actions">
+        <a href="#kontak" class="btn btn-primary nav-btn" style="padding: 0.6rem 1.5rem; font-size: 0.9rem">Mulai
+          Proyek</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-    <nav>
-        <div class="nav-container">
-            <div class="logo">FACHRI<span class="gradient-text">.DIGITAL</span></div>
-            <div class="nav-links">
-                <a href="#solusi">Solusi</a>
-                <a href="#layanan">Layanan</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#kontak">Kontak</a>
-            </div>
-            <a href="#kontak" class="btn btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Mulai
-                Proyek</a>
+  <header class="hero">
+    <div class="container">
+      <h1>
+        <span class="gradient-text">Ubah Kehadiran Digital </span> Bisnis Anda
+        Menjadi Aset yang Menghasilkan.
+      </h1>
+      <p>
+        Saya membantu bisnis travel, penyedia jasa, dan UMKM membangun website
+        profesional yang meningkatkan kepercayaan pelanggan dan mendorong
+        pertumbuhan usaha secara nyata.
+      </p>
+      <div class="hero-btns">
+        <a href="#kontak" class="btn btn-primary">Konsultasi Gratis</a>
+        <a href="#portfolio" class="btn" style="color: var(--text-primary)">Lihat Hasil Kerja
+          <i class="fas fa-arrow-right" style="margin-left: 10px"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <section id="masalah" style="background: rgba(255, 255, 255, 0.02)">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="gradient-text">Apakah Bisnis Anda Mengalami Hal Ini?</h2>
+        <p>
+          Banyak bisnis kehilangan potensi karena wajah digital yang kurang
+          meyakinkan.
+        </p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="icon-box"><i class="fas fa-user-slash"></i></div>
+          <h3>Kehilangan Pelanggan</h3>
+          <p>
+            Calon pembeli pergi karena website Anda terlihat tidak profesional
+            atau sulit diakses.
+          </p>
         </div>
-    </nav>
-
-    <header class="hero">
-        <div class="container">
-            <h1><span class="gradient-text">Ubah Kehadiran Digital </span> Bisnis Anda Menjadi Aset yang Menghasilkan.
-            </h1>
-            <p>Saya membantu bisnis travel, penyedia jasa, dan UMKM membangun website profesional yang meningkatkan
-                kepercayaan pelanggan dan mendorong pertumbuhan usaha secara nyata.</p>
-            <div class="hero-btns">
-                <a href="#kontak" class="btn btn-primary">Konsultasi Gratis</a>
-                <a href="#portfolio" class="btn" style="color: var(--text-primary);">Lihat Hasil Kerja <i
-                        class="fas fa-arrow-right" style="margin-left: 10px;"></i></a>
-            </div>
+        <div class="card">
+          <div class="icon-box"><i class="fas fa-shield-virus"></i></div>
+          <h3>Sulit Dipercaya</h3>
+          <p>
+            Keraguan muncul karena bisnis Anda tidak memiliki identitas
+            digital yang solid dan meyakinkan.
+          </p>
         </div>
-    </header>
-
-    <section id="masalah" style="background: rgba(255,255,255,0.02);">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="gradient-text">Apakah Bisnis Anda Mengalami Hal Ini?</h2>
-                <p>Banyak bisnis kehilangan potensi karena wajah digital yang kurang meyakinkan.</p>
-            </div>
-            <div class="grid">
-                <div class="card">
-                    <div class="icon-box"><i class="fas fa-user-slash"></i></div>
-                    <h3>Kehilangan Pelanggan</h3>
-                    <p>Calon pembeli pergi karena website Anda terlihat tidak profesional atau sulit diakses.</p>
-                </div>
-                <div class="card">
-                    <div class="icon-box"><i class="fas fa-shield-virus"></i></div>
-                    <h3>Sulit Dipercaya</h3>
-                    <p>Keraguan muncul karena bisnis Anda tidak memiliki identitas digital yang solid dan meyakinkan.
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon-box"><i class="fas fa-chart-line-down" style="transform: rotate(180deg)"></i></div>
-                    <h3>Hanya Jadi Pajangan</h3>
-                    <p>Website tidak membantu penjualan karena desain yang kaku dan pesan yang tidak jelas.</p>
-                </div>
-            </div>
+        <div class="card">
+          <div class="icon-box">
+            <i class="fas fa-chart-line-down" style="transform: rotate(180deg)"></i>
+          </div>
+          <h3>Hanya Jadi Pajangan</h3>
+          <p>
+            Website tidak membantu penjualan karena desain yang kaku dan pesan
+            yang tidak jelas.
+          </p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="solusi">
-        <div class="container">
-            <div class="section-title">
-                <h2>Partner Pertumbuhan Digital Anda</h2>
-                <p>Lebih dari sekadar kode, saya membangun platform bisnis yang dirancang untuk berkembang.</p>
-            </div>
-            <div class="grid">
-                <div class="card">
-                    <div class="icon-box"><i class="fas fa-check-circle"></i></div>
-                    <h3>Kredibilitas Instan</h3>
-                    <p>Desain modern yang membuat klien yakin sejak detik pertama mereka berkunjung.</p>
-                </div>
-                <div class="card">
-                    <div class="icon-box"><i class="fas fa-mouse-pointer"></i></div>
-                    <h3>Optimasi Pengalaman</h3>
-                    <p>Memastikan pelanggan mudah menemukan informasi dan menghubungi Anda tanpa hambatan.</p>
-                </div>
-                <div class="card">
-                    <div class="icon-box"><i class="fas fa-lightbulb"></i></div>
-                    <h3>Fokus Hasil Bisnis</h3>
-                    <p>Menerjemahkan tantangan bisnis Anda ke dalam solusi digital yang fungsional dan taktis.</p>
-                </div>
-            </div>
+  <section id="solusi">
+    <div class="container">
+      <div class="section-title">
+        <h2>Partner Pertumbuhan Digital Anda</h2>
+        <p>
+          Lebih dari sekadar kode, saya membangun platform bisnis yang
+          dirancang untuk berkembang.
+        </p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="icon-box"><i class="fas fa-check-circle"></i></div>
+          <h3>Kredibilitas Instan</h3>
+          <p>
+            Desain modern yang membuat klien yakin sejak detik pertama mereka
+            berkunjung.
+          </p>
         </div>
-    </section>
-
-    <section id="layanan" style="background: rgba(255,255,255,0.02);">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="gradient-text">Solusi Tepat Sasaran</h2>
-            </div>
-            <div class="grid">
-                <div class="card">
-                    <i class="fas fa-plane-departure"
-                        style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
-                    <h3>Sistem Reservasi Travel</h3>
-                    <p>Katalog paket wisata dinamis dengan integrasi pemesanan yang memudahkan operasional.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-concierge-bell"
-                        style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
-                    <h3>Landing Page Jasa</h3>
-                    <p>Halaman khusus yang dirancang untuk mengonversi pengunjung menjadi klien premium.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-boxes-stacked"
-                        style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
-                    <h3>Katalog UMKM & Supplier</h3>
-                    <p>Menampilkan listing produk secara rapi untuk menarik pembeli skala besar atau B2B.</p>
-                </div>
-            </div>
+        <div class="card">
+          <div class="icon-box"><i class="fas fa-mouse-pointer"></i></div>
+          <h3>Optimasi Pengalaman</h3>
+          <p>
+            Memastikan pelanggan mudah menemukan informasi dan menghubungi
+            Anda tanpa hambatan.
+          </p>
         </div>
-    </section>
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2>Hasil Kerja Terbaru</h2>
-                <p>Proyek yang telah membantu bisnis klien mencapai level berikutnya.</p>
-            </div>
-            <div class="portfolio-grid">
-                <div class="work-card">
-                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800"
-                        alt="Travel Website" class="work-img">
-                    <div class="work-overlay">
-                        <h3 style="color: white">Lancar Wisata</h3>
-                        <p style="color: #cbd5e1; font-size: 0.9rem;">Sistem Reservasi Travel • +30% Booking</p>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
-                        alt="Service Website" class="work-img">
-                    <div class="work-overlay">
-                        <h3 style="color: white">Arsitek Pro</h3>
-                        <p style="color: #cbd5e1; font-size: 0.9rem;">Landing Page Jasa • Konversi Cepat</p>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800"
-                        alt="B2B Website" class="work-img">
-                    <div class="work-overlay">
-                        <h3 style="color: white">Tani Jaya</h3>
-                        <p style="color: #cbd5e1; font-size: 0.9rem;">Katalog Supplier • Jangkauan Nasional</p>
-                    </div>
-                </div>
-            </div>
+        <div class="card">
+          <div class="icon-box"><i class="fas fa-lightbulb"></i></div>
+          <h3>Fokus Hasil Bisnis</h3>
+          <p>
+            Menerjemahkan tantangan bisnis Anda ke dalam solusi digital yang
+            fungsional dan taktis.
+          </p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="kontak">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="gradient-text">Mari Bicara Tentang Bisnis Anda</h2>
-                <p>Konsultasi awal gratis. Saya siap mendengar strategi dan tantangan yang Anda hadapi.</p>
-            </div>
-            <div class="contact-container">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Nama Lengkap</label>
-                        <input type="text" id="name" placeholder="Siapa nama Anda?" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="business">Jenis Bisnis</label>
-                        <input type="text" id="business" placeholder="Contoh: Travel Agen, Supplier Kopi, dll" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Pesan / Rencana Proyek</label>
-                        <textarea id="message"
-                            placeholder="Ceritakan sedikit tentang rencana website yang ingin Anda buat..."
-                            required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">Kirim ke
-                        WhatsApp <i class="fab fa-whatsapp" style="margin-left: 10px;"></i></button>
-                </form>
-                <p style="text-align: center; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-secondary);">
-                    Saya biasanya merespons dalam waktu kurang dari 24 jam.
-                </p>
-            </div>
+  <section id="layanan" style="background: rgba(255, 255, 255, 0.02)">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="gradient-text">Solusi Tepat Sasaran</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <i class="fas fa-plane-departure" style="
+                font-size: 2rem;
+                color: var(--primary-color);
+                margin-bottom: 1rem;
+              "></i>
+          <h3>Sistem Reservasi Travel</h3>
+          <p>
+            Katalog paket wisata dinamis dengan integrasi pemesanan yang
+            memudahkan operasional.
+          </p>
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; FACHRI.DIGITAL - Partner Pertumbuhan Digital Anda.</p>
-            <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.6;">Didesain untuk Performa dan Kepercayaan.</p>
+        <div class="card">
+          <i class="fas fa-concierge-bell" style="
+                font-size: 2rem;
+                color: var(--primary-color);
+                margin-bottom: 1rem;
+              "></i>
+          <h3>Landing Page Jasa</h3>
+          <p>
+            Halaman khusus yang dirancang untuk mengonversi pengunjung menjadi
+            klien premium.
+          </p>
         </div>
-    </footer>
+        <div class="card">
+          <i class="fas fa-boxes-stacked" style="
+                font-size: 2rem;
+                color: var(--primary-color);
+                margin-bottom: 1rem;
+              "></i>
+          <h3>Katalog UMKM & Supplier</h3>
+          <p>
+            Menampilkan listing produk secara rapi untuk menarik pembeli skala
+            besar atau B2B.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="main.js"></script>
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Hasil Kerja Terbaru</h2>
+        <p>
+          Proyek yang telah membantu bisnis klien mencapai level berikutnya.
+        </p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="work-card">
+          <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800"
+            alt="Travel Website" class="work-img" loading="lazy" />
+          <div class="work-overlay">
+            <h3 style="color: white">Lancar Wisata</h3>
+            <p style="color: #cbd5e1; font-size: 0.9rem">
+              Sistem Reservasi Travel • +30% Booking
+            </p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+            alt="Service Website" class="work-img" loading="lazy" />
+          <div class="work-overlay">
+            <h3 style="color: white">Arsitek Pro</h3>
+            <p style="color: #cbd5e1; font-size: 0.9rem">
+              Landing Page Jasa • Konversi Cepat
+            </p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800"
+            alt="B2B Website" class="work-img" loading="lazy" />
+          <div class="work-overlay">
+            <h3 style="color: white">Tani Jaya</h3>
+            <p style="color: #cbd5e1; font-size: 0.9rem">
+              Katalog Supplier • Jangkauan Nasional
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <div class="container">
+      <div class="section-title">
+        <h2 class="gradient-text">Mari Bicara Tentang Bisnis Anda</h2>
+        <p>
+          Konsultasi awal gratis. Saya siap mendengar strategi dan tantangan
+          yang Anda hadapi.
+        </p>
+      </div>
+      <div class="contact-container">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" placeholder="Siapa nama Anda?" required />
+          </div>
+          <div class="form-group">
+            <label for="business">Jenis Bisnis</label>
+            <input type="text" id="business" placeholder="Contoh: Travel Agen, Supplier Kopi, dll" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan / Rencana Proyek</label>
+            <textarea id="message" placeholder="Ceritakan sedikit tentang rencana website yang ingin Anda buat..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem">
+            Kirim ke WhatsApp
+            <i class="fab fa-whatsapp" style="margin-left: 10px"></i>
+          </button>
+        </form>
+        <p style="
+              text-align: center;
+              margin-top: 1.5rem;
+              font-size: 0.9rem;
+              color: var(--text-secondary);
+            ">
+          Saya biasanya merespons dalam waktu kurang dari 24 jam.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; FACHRI.DIGITAL - Partner Pertumbuhan Digital Anda.</p>
+      <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.6">
+        Didesain untuk Performa dan Kepercayaan.
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
-
 
 </html>
